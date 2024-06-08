@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Vader's Web Portfolio</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./styles.css">
+	<script src="./scripts.js"></script>
+	<link rel="icon" type="image/jpg" href="./imgs/darth-vader-clipart-2019-47.png">
+</head>
+<body>
+	<header>
+		<a href="#" class="logo-holder">
+			<div class="logo"> <img src="./imgs/logo_001.png" alt="Vader" class="logo-img"></div>
+			<div class="logo-text">Vader's Web Portfolio</div>
+		</a>
+		<nav>
+			<ul id="menu">
+				<li>
+					<a href="#">Home</a>
+				</li>
+				<li>
+					<a href="#skills">Skills</a>
+				</li>
+				<li>
+					<a href="#projects">Projects</a>
+				</li>
+				<li>
+					<a href="#" class="button">Contact Me</a>
+				</li>
+			</ul>
+			<a href="#" class="mobile-toggle" onClick="toggleMobileMenu();">
+				<svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+					<path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h10"/>
+				</svg>
+			</a>
+		</nav>
+	</header>
+	<main>
+		<section class="hero container">
+			<div class="hero-blue">
+				<div>
+					<h1>
+						Darth Vader
+					</h1>
+					<p>
+						The Force binds me to both design and development. <br>
+						Currently, I serve my apprenticeship a student at Thapar. <br>
+						My tools are the programming languages:<br> Python, JavaScript, C, and C++, the very foundation upon which I build. <br> I also know HTML & CSS(must not be granted the rank of a programming language). <br>
+						The whispers of the dark side echo in the realm of machine learning. I delve into these forbidden arts, with libraries such as Pandas and NumPy with chilling precision. <br>
+						The lure of AI is a siren song I cannot ignore. 
+                    <!-- <span>
+                    I am also interested in AI which is why I try to add things like ai chatbots into my Projects.
+                    </span> -->
+					</p>
+					<div class="call-to-action">
+						<a href="#" class="button black">
+							View Resume
+						</a>
+						<a href=#" class="button white">
+							Contact Me
+						</a>
+					</div>
+					<div class="social-links">
+						<a href="https://github.com/ashdev-7">
+							<img src="./imgs/github.png" alt="GitHub" width="48" />
+						</a>
+						<a href="https://www.linkedin.com/in/yash-tyagi-3b3514290/">
+							<img src="./imgs/linkedin.png" alt="LinkedIn" width="48" />
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="hero-yellow">
+				<img src="./imgs/darth-vader-clipart-2019-47.png" alt="Yash Tyagi" width="100%" />
+			</div>
+		</section>
+		<section class="logos container">
+			<div class="marquee">
+				<div class="track">
+					<img src="./imgs/html.png" alt="HTML" width="128" />
+					<img src="./imgs/css.png" alt="CSS" width="128" />
+					<img src="./imgs/javascript.png" alt="JS" width="128" />
+					<img src="./imgs/sass.png" width="128" alt="Sass" />
+					<img src="./imgs/react.png" width="128" alt="React" />
+					<img src="./imgs/nextjs.png" width="128" alt="Next JS" />
+					<img src="./imgs/azure.png" width="128" alt="Azure" />
+					<img src="./imgs/vscode.png" width="128" alt="VS Code" />
+					<img src="./imgs/python.png" width="128" alt="Python" />
+					<img src="./imgs/html.png" alt="HTML" width="128" />
+					<img src="./imgs/css.png" alt="CSS" width="128" />
+					<img src="./imgs/javascript.png" alt="JS" width="128" />
+					<img src="./imgs/sass.png" width="128" alt="Sass" />
+					<img src="./imgs/react.png" width="128" alt="React" />
+					<img src="./imgs/nextjs.png" width="128" alt="Next JS" />
+					<img src="./imgs/azure.png" width="128" alt="Azure" />
+					<img src="./imgs/vscode.png" width="128" alt="VS Code" />
+					<img src="./imgs/python.png" width="128" alt="Python" />
+				</div>
+			</div>
+		</section>
+		<section id="skills" class="skills container">
+			<h2>
+				<small>About Me</small>
+				Skills
+			</h2>
+			<div class="holder-blue">
+				<div class="left-column">
+					<h3>Frontend</h3>
+					<ul>
+						<li>HTML</li>
+						<li>CSS</li>
+						<li>JavaScript</li>
+					</ul>
+					<h3>Backend</h3>
+					<ul>
+						<li>Node.js</li>
+						<li>Python</li>
+					</ul>
+				</div>
+				<div class="right-column">
+					<h3>Wanna know about me?</h3>
+					<p>
+						I am Darth Vader. <br>
+						The Force is strong with my code. <br>
+						I have mastered the web development arts, wielding languages of Python, Javascript, and C++ with unmatched precision. <br>
+						I can make projects with great efficiency and power. <br>
+						Do you have the courage to question my abilities?"
+                    	<!-- <span>
+                    	I am also interested in AI which is why I try to add things like ai chatbots into my Projects.
+                    	</span> -->
+						</p>
+				</div>
+			</div>
+		</section>
+		<section id="projects" class="work-experience container projects">
+			<h2>
+				<small>Recent</small>
+				Projects
+			</h2>
+			<div class="jobs">
+				<article>
+					<figure>
+						<div>
+							<img src="./imgs/html-css-logo.png" alt="Android App Development" width="100%" />
+							<figcaption>
+								Website Development
+							</figcaption>
+						</div>
+					</figure>
+					<h3>Website Development</h3>
+					<div>June 2024</div>
+					<p>Made a personal portfolio website using HTML, CSS and JavaScript.</p>
+				</article>
+				<article>
+					<figure>
+						<div>
+							<img src="./imgs/flutter-logo.jpg" alt="Android App Development" width="100%" />
+							<figcaption>
+								Android App Development
+							</figcaption>
+						</div>
+					</figure>
+					<h3>Android App Development</h3>
+					<div>Apr 2024</div>
+					<p>Made a ToDo list application using flutterflow with database integration</p>
+				</article>
+				<article>
+					<figure>
+						<div>
+							<img src="./imgs/flutter-logo.jpg" alt="Android App Development" width="100%" />
+							<figcaption>
+								Android App Development
+							</figcaption>
+						</div>
+					</figure>
+					<h3>Android App Development</h3>
+					<div>Apr 2024</div>
+					<p>Made a simple counter application using flutterflow with database integration</p>
+				</article>
+				
+			</div>
+		</section>
+
+	</main>
+</body>
+</html>
